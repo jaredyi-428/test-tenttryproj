@@ -12,9 +12,9 @@ const Hero: React.FC<HeroProps> = ({ onSearch, currentCriteria }) => {
     <div className="relative pt-32 pb-32 lg:pt-48 lg:pb-48 overflow-visible">
       {/* Background with overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1496545672479-7ac3764ca50c?q=80&w=2070&auto=format&fit=crop" 
-          alt="Camping under stars" 
+        <img
+          src="https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=2070&auto=format&fit=crop"
+          alt="Camping under stars"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-stone-900/80 to-stone-900/40"></div>
@@ -26,18 +26,18 @@ const Hero: React.FC<HeroProps> = ({ onSearch, currentCriteria }) => {
             <span className="w-2 h-2 rounded-full bg-brand-400 animate-pulse"></span>
             <span>2025 新裝備已上架</span>
           </div>
-          
+
           <h1 className="text-4xl md:text-6xl font-bold text-white tracking-tight leading-tight mb-6">
-            探索自然 <br/>
+            探索自然 <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-300 to-brand-100">
               從選擇合適的裝備開始
             </span>
           </h1>
-          
+
           <p className="text-lg text-stone-200 mb-8 leading-relaxed max-w-xl">
             無論是北海岸的星空，還是中央山脈的晨曦。先決定您的目的地，我們為您準備最合適的庇護所。
           </p>
-          
+
           {/* Search Form Integration */}
           <div className="mt-8 relative z-20">
             <SearchForm initialCriteria={currentCriteria} onSearch={onSearch} />

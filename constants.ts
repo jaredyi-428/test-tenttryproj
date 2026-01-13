@@ -42,7 +42,7 @@ export const TENTS: Tent[] = [
     capacity: 6,
     weight: '25kg',
     season: 3,
-    imageUrl: 'https://images.unsplash.com/photo-1629248456637-299f43c393bc?auto=format&fit=crop&q=80&w=800',
+    imageUrl: 'https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?auto=format&fit=crop&q=80&w=800',
     features: ['科技棉材質', '可放置雙人床', '防火煙囪孔']
   }
 ];

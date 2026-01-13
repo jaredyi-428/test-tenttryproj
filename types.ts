@@ -20,6 +20,7 @@ export enum Page {
   HOME = 'HOME',
   CATALOG = 'CATALOG',
   DETAILS = 'DETAILS',
+  INSURANCE = 'INSURANCE',
 }
 
 export type Region = 'North' | 'Central' | 'South' | 'East' | '';
