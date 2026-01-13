@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import TentCard from './components/TentCard';
 import InsurancePage from './components/InsurancePage';
+import GuidePage from './components/GuidePage';
+import AboutPage from './components/AboutPage';
 import BookingModal from './components/BookingModal';
 import { TENTS } from './constants';
 import { Page, Tent, BookingCriteria } from './types';
@@ -151,6 +153,14 @@ const App: React.FC = () => {
 
         {currentPage === Page.INSURANCE && (
           <InsurancePage onNavigate={handleNavigate} />
+        )}
+
+        {currentPage === Page.GUIDE && (
+          <GuidePage onNavigate={handleNavigate} />
+        )}
+
+        {currentPage === Page.ABOUT && (
+          <AboutPage onNavigate={handleNavigate} />
         )}
       </main>
 

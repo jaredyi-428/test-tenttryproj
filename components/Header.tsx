@@ -39,8 +39,8 @@ const Header: React.FC<HeaderProps> = ({ onNavigate, cartCount }) => {
         <nav className="hidden md:flex items-center gap-8">
           <button onClick={() => onNavigate(Page.HOME)} className={`text-sm font-medium transition-colors ${isScrolled ? 'text-gray-600 hover:text-brand-600' : 'text-white/90 hover:text-white'}`}>首頁</button>
           <button onClick={() => onNavigate(Page.CATALOG)} className={`text-sm font-medium transition-colors ${isScrolled ? 'text-gray-600 hover:text-brand-600' : 'text-white/90 hover:text-white'}`}>裝備目錄</button>
-          <button className={`text-sm font-medium transition-colors ${isScrolled ? 'text-gray-600 hover:text-brand-600' : 'text-white/90 hover:text-white'}`}>露營指南</button>
-          <button className={`text-sm font-medium transition-colors ${isScrolled ? 'text-gray-600 hover:text-brand-600' : 'text-white/90 hover:text-white'}`}>關於我們</button>
+          <button onClick={() => onNavigate(Page.GUIDE)} className={`text-sm font-medium transition-colors ${isScrolled ? 'text-gray-600 hover:text-brand-600' : 'text-white/90 hover:text-white'}`}>露營指南</button>
+          <button onClick={() => onNavigate(Page.ABOUT)} className={`text-sm font-medium transition-colors ${isScrolled ? 'text-gray-600 hover:text-brand-600' : 'text-white/90 hover:text-white'}`}>關於我們</button>
         </nav>
 
         <div className="flex items-center gap-4">

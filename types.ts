@@ -21,6 +21,8 @@ export enum Page {
   CATALOG = 'CATALOG',
   DETAILS = 'DETAILS',
   INSURANCE = 'INSURANCE',
+  GUIDE = 'GUIDE',
+  ABOUT = 'ABOUT',
 }
 
 export type Region = 'North' | 'Central' | 'South' | 'East' | '';
